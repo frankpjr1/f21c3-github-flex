@@ -1,0 +1,24 @@
+
+#header {
+    /*background: #000000;*/
+    background: #323232;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+   /*display: inline | block;*/
+}
+
+#left img {
+    width: 64px;
+}
+
+#right {
+}
+
+
+#right img {
+    border-radius: 50%;
+}
