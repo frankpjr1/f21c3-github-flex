@@ -36,6 +36,10 @@ nav {
     color: white;
 }
 
+#nav-left li a:hover {
+    color: slategrey;
+}
+
 #nav-left input[type="submit"] {
     background-color: #24292F;
     border:1px solid white;
@@ -77,10 +81,17 @@ nav {
     height: 20px;
 }
 
+
 #nav-right select {
     background-color: #24292F;
     border: 0;
     color: white;
+}
+
+#nav-right svg:hover {
+    background-color: #24292F;
+    border: 0;
+    color: grey;
 }
 
 #nav-right > div {
