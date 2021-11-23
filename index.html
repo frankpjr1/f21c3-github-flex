@@ -3,20 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Github Flex</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-<style>
-    header {
-    }
 
-    nav {
-    }
-</style>
+<nav>
+    <div id="nav-left">
+        <div>
 
-<div id="header">
-    <div id="nav"></div>
-</div>
+            <img src="images/github_logo_icon_143772.png" alt="GitHub logo" height="512" width="512"/></div>
+
+        <div id="search">
+            <div class="nav-search">
+                <label for="main-nav-search"></label>
+                <input type="search" id="main-nav-search">
+                <input type="submit" value="/">
+            </div>
+        </div>
+
+        <ul>
+            <li><a href="">Pull requests</a></li>
+            <li><a href="">Issues</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Explore</a></li>
+        </ul>
+    </div>
+
+
+    <div id="nav-right">
+       <div>
+           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" color="white" width="20px" height="20px">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+           </svg>
+       </div>
+        <label for="new-repo">+</label>
+        <select name="new-repo" id="new-repo">
+            <option value=""></option>
+            <option value="">New Repo</option>
+            <option value="">Import Repository</option>
+            <option value="">New gist</option>
+            <option value="">New organization</option>
+        </select>
+        <label for="sign-in">
+            <img src="images/2019_PIT_wbg.png" alt="pittsburgh logo"></label>
+        <select name="new-repo" id="sign-in">
+            <option value=""></option>
+            <option value="">New Repo</option>
+            <option value="">Import Repository</option>
+            <option value="">New gist</option>
+            <option value="">New organization</option>
+        </select>
+    </div>
+</nav>
 
 
 </body>
